@@ -8,10 +8,12 @@ My bindings are derived from [/u/nmezib's bindings](https://www.reddit.com/r/Eli
 
 # Diagram
 
-diagram
+![Diagram](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/Diagram.png)
 
-View the [original size](link). The diagram was created using [draw.io](https://www.draw.io/). I have included the xml file if you would like to modify the bindings and print your own diagram.
+View the [original size](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/Diagram.png). The diagram was created using [draw.io](https://www.draw.io/). I have included the xml file if you would like to modify the bindings and print your own diagram.
 
 # Photos
 
-photos
+![Photo 1](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/Photo%201.jpg)
+
+![Photo 2](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/Photo%202.jpg)
