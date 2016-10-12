@@ -14,6 +14,6 @@ View the [original size](https://raw.githubusercontent.com/francoiswnel/Elite-Da
 
 # Photos
 
-![Photo 1](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/Photo%201.jpg)
+![Photo 1](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/1.jpg)
 
-![Photo 2](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/Photo%202.jpg)
+![Photo 2](https://raw.githubusercontent.com/francoiswnel/Elite-Dangerous-Bindings/master/Media/2.jpg)
