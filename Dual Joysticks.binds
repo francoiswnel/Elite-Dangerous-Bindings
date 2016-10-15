@@ -18,7 +18,7 @@
 	<YawAxisRaw>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -77,7 +77,7 @@
 	<VerticalThrustRaw>
 		<Binding Device="07382237" DeviceIndex="1" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</VerticalThrustRaw>
 	<UpThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -362,7 +362,7 @@
 	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="07382237" DeviceIndex="0" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Space" />
 	</PrimaryFire>
 	<SecondaryFire>
 		<Primary Device="07382237" DeviceIndex="1" Key="Joy_1" />
@@ -569,11 +569,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Right>
 	<UI_Select>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_6" />
+		<Primary Device="07382237" DeviceIndex="0" Key="Joy_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Select>
 	<UI_Back>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_5" />
+		<Primary Device="07382237" DeviceIndex="0" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
 	<UI_Toggle>
@@ -723,7 +723,7 @@
 	<MouseBuggyYDecay Value="0" />
 	<SteeringAxis>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_RZAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.03000000" />
 	</SteeringAxis>
 	<SteerLeftButton>
@@ -749,7 +749,7 @@
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.03000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
@@ -829,7 +829,7 @@
 	<DriveSpeedAxis>
 		<Binding Device="07382237" DeviceIndex="1" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.00000000" />
 	</DriveSpeedAxis>
 	<BuggyThrottleRange Value="" />
 	<BuggyToggleReverseThrottleInput>
@@ -837,13 +837,13 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</BuggyToggleReverseThrottleInput>
-	<BuggyThrottleIncrement Value="0.00000000" />
+	<BuggyThrottleIncrement Value="0.25000000" />
 	<IncreaseSpeedButtonMax>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSpeedButtonMax>
 	<DecreaseSpeedButtonMax>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DecreaseSpeedButtonMax>
 	<IncreaseSpeedButtonPartial>
@@ -892,9 +892,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
 	<PhotoCameraToggle_Buggy>
-		<Primary Device="07382237" DeviceIndex="1" Key="Neg_Joy_ZAxis" />
+		<Primary Device="Keyboard" Key="Key_C" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</PhotoCameraToggle_Buggy>
 	<UIFocus_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
