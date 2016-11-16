@@ -38,7 +38,7 @@
 	<RollAxisRaw>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -51,7 +51,7 @@
 	<PitchAxisRaw>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -64,7 +64,7 @@
 	<LateralThrustRaw>
 		<Binding Device="07382237" DeviceIndex="1" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</LateralThrustRaw>
 	<LeftThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -90,7 +90,7 @@
 	<AheadThrust>
 		<Binding Device="07382237" DeviceIndex="1" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -353,11 +353,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="Keyboard" Key="Key_A" />
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Left">
+			<Modifier Device="07382237" DeviceIndex="0" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Right">
+			<Modifier Device="07382237" DeviceIndex="0" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -369,13 +373,13 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Right">
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Up">
 			<Modifier Device="07382237" DeviceIndex="0" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Left">
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Down">
 			<Modifier Device="07382237" DeviceIndex="0" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
@@ -412,15 +416,11 @@
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Up">
-			<Modifier Device="07382237" DeviceIndex="0" Key="Joy_6" />
-		</Primary>
+		<Primary Device="Keyboard" Key="Key_A" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_POV1Down">
-			<Modifier Device="07382237" DeviceIndex="0" Key="Joy_6" />
-		</Primary>
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
@@ -544,9 +544,9 @@
 		<ToggleOn Value="0" />
 	</ShowPGScoreSummaryInput>
 	<HeadLookToggle>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_7" />
+		<Primary Device="Keyboard" Key="Key_H" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</HeadLookToggle>
 	<Pause>
 		<Primary Device="{NoDevice}" Key="" />
@@ -597,7 +597,7 @@
 	<HeadlookResetOnToggle Value="1" />
 	<HeadlookSensitivity Value="1.00000000" />
 	<HeadLookReset>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="07382237" DeviceIndex="1" Key="Joy_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookReset>
 	<HeadLookPitchUp>
@@ -724,7 +724,7 @@
 	<SteeringAxis>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</SteeringAxis>
 	<SteerLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -737,7 +737,7 @@
 	<BuggyRollAxisRaw>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_XAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -750,7 +750,7 @@
 	<BuggyPitchAxis>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -803,7 +803,7 @@
 	<BuggyTurretYawAxisRaw>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_RZAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</BuggyTurretYawAxisRaw>
 	<BuggyTurretYawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -816,7 +816,7 @@
 	<BuggyTurretPitchAxisRaw>
 		<Binding Device="07382237" DeviceIndex="0" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.03000000" />
+		<Deadzone Value="0.05000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -829,7 +829,7 @@
 	<DriveSpeedAxis>
 		<Binding Device="07382237" DeviceIndex="1" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.05000000" />
 	</DriveSpeedAxis>
 	<BuggyThrottleRange Value="" />
 	<BuggyToggleReverseThrottleInput>
@@ -937,7 +937,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen_Buggy>
 	<HeadLookToggle_Buggy>
-		<Primary Device="07382237" DeviceIndex="1" Key="Joy_7" />
+		<Primary Device="Keyboard" Key="Key_H" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle_Buggy>
